@@ -1,0 +1,22 @@
+{
+  "threshold": 0.23635860938278663,
+  "features": [
+    "fixed_acidity",
+    "volatile_acidity",
+    "citric_acid",
+    "residual_sugar",
+    "chlorides",
+    "free_sulfur_dioxide",
+    "total_sulfur_dioxide",
+    "density",
+    "pH",
+    "sulphates",
+    "alcohol",
+    "is_red"
+  ],
+  "model_name": "StandardScaler + LogisticRegression, без весов",
+  "selection": "max validation precision subject to validation recall >= 0.7",
+  "random_state": 42,
+  "sklearn_version": "1.8.0",
+  "python_version": "3.12.14"
+}
